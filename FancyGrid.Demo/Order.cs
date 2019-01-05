@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.ComponentModel;
 
-namespace FancyGrid
+namespace FancyGrid.Demo
 {
 
     public class TestRow : INotifyPropertyChanged

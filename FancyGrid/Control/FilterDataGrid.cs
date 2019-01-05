@@ -47,6 +47,10 @@ namespace FancyGrid
             set { SetValue(IsFilteringCaseSensitiveProperty, value); }
         }
 
+        static FilteringDataGrid()
+        {
+            DefaultStyleKeyProperty.OverrideMetadata(typeof(FilteringDataGrid), new FrameworkPropertyMetadata(typeof(FilteringDataGrid)));
+        }
 
         /// <summary>
         /// Register for all text changed events
